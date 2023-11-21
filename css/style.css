@@ -568,6 +568,34 @@ i {
 	font-weight: bold;
 }
 
+/* backup CSS style for the carousel number
+.number_main {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.number_text {
+    width: 70px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+.number_text::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 17px;
+}
+*/
 .carousel-item {
 	text-align: center;
 }
@@ -617,8 +645,6 @@ i {
 .about_container_2 {
 	width: 100%;
 }
-
-
 .about_title {
 	width: 100%;
 	float: left;
@@ -1003,7 +1029,10 @@ textarea#comment::placeholder {
 
 /* contact section end */
 /* people section start */
-
+.people-img {
+	padding: 20px;
+	box-shadow: 5px 10px 18px #dedede;	
+}
 
 .people_title {
 	width: 100%;
@@ -1194,6 +1223,9 @@ textarea#comment::placeholder {
 }  
 /* gallery section end */
 /* reference */
+.reference-container a:hover {
+	color: #d2de32;
+}
 
 /* footer section start */
 
